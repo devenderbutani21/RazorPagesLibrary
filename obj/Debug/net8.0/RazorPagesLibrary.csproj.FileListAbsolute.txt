@@ -250,3 +250,4 @@ D:\Code\C#Net\RazorPagesLibrary\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.
 D:\Code\C#Net\RazorPagesLibrary\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\Code\C#Net\RazorPagesLibrary\obj\Debug\net8.0\RazorPagesLibrary.csproj.AssemblyReference.cache
 D:\Code\C#Net\RazorPagesLibrary\obj\Debug\net8.0\RazorPagesLibrary.csproj.CopyComplete
+D:\Code\C#Net\RazorPagesLibrary\obj\Debug\net8.0\RazorPagesLibrary.sourcelink.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "isYViL30tcBBpai99GNS6BjBEhAHDzWCtUwoGICiT44=",
+  "Hash": "qwLbCLE4z7r59DjmlDa54fDEZDbQvHzzeN9MuFpRw1g=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\homepage-img.jpg",
+      "SourceId": "RazorPagesLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
+      "BasePath": "_content/RazorPagesLibrary",
+      "RelativePath": "images/homepage-img.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\homepage-img.jpg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\logo.svg",
