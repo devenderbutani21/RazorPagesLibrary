@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Code\C#Net\RazorPagesLibrary
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Code/C\#Net/RazorPagesLibrary/Pages/About Us/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQgVXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Code/C\#Net/RazorPagesLibrary/Pages/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

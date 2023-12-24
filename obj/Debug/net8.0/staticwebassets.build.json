@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/u8l03IcHOJNtm9EA4zINAS3na9IEqtqtbgv2CFAuPI=",
+  "Hash": "bWGFOfL/bMHPQdOB82XU/6YbldTZTXVHw99t00aZLzQ=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\about_us.jpg",
+      "SourceId": "RazorPagesLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
+      "BasePath": "_content/RazorPagesLibrary",
+      "RelativePath": "images/about_us.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about_us.jpg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\blogs_1.jpg",

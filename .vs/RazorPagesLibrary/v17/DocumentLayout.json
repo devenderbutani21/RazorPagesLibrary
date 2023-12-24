@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,9 +36,22 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAlAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEUAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-22T23:27:27.366Z",
+              "WhenOpened": "2023-12-24T23:57:39.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAC4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-12-24T23:35:20.573Z",
               "EditorCaption": ""
             },
             {
@@ -51,19 +64,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T22:05:12.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-21T22:05:00.422Z"
+              "WhenOpened": "2023-12-21T22:05:12.866Z",
+              "EditorCaption": ""
             }
           ]
         }
