@@ -25,6 +25,22 @@
       "PackagePath": "staticwebassets\\images\\blogs_3.jpg"
     },
     {
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_1.png",
+      "PackagePath": "staticwebassets\\images\\book_1.png"
+    },
+    {
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_2.png",
+      "PackagePath": "staticwebassets\\images\\book_2.png"
+    },
+    {
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_3.png",
+      "PackagePath": "staticwebassets\\images\\book_3.png"
+    },
+    {
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_4.png",
+      "PackagePath": "staticwebassets\\images\\book_4.png"
+    },
+    {
       "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\homepage-img.jpg",
       "PackagePath": "staticwebassets\\images\\homepage-img.jpg"
     },

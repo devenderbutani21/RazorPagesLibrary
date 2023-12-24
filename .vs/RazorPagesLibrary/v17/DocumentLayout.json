@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAGwAAAAzAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2023-12-22T23:27:27.366Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2023-12-21T22:05:00.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T22:05:00.422Z"
             }
           ]
         }
