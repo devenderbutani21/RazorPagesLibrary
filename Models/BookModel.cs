@@ -15,6 +15,6 @@ namespace RazorPagesLibrary.Models
         [DataType(DataType.DateTime)]
         public DateTime PublicationDate { get; set; }
         public int Pages { get; set; }
-        public int CoverImagePath { get; set; }
+        public string CoverImagePath { get; set; }
     }
 }
