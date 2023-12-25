@@ -133,8 +133,8 @@
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\social media.svg",
-      "PackagePath": "staticwebassets\\images\\social media.svg"
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\social_media.svg",
+      "PackagePath": "staticwebassets\\images\\social_media.svg"
     },
     {
       "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\js\\site.js",

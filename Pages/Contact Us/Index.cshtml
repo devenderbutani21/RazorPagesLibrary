@@ -1,0 +1,24 @@
+﻿@page
+@model RazorPagesLibrary.Pages.Contact_Us.IndexModel
+@{
+}
+
+<form>
+    <div class="form-group my-4 fw-bold">
+        <label for="firstName">First name:</label><br>
+        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+    </div>
+    <div class="form-group my-4 fw-bold">
+        <label for="lastName">Last name:</label><br>
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+    </div>
+    <div class="form-group my-4 fw-bold">
+        <label for="InputEmail1">Email address</label>
+        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group my-4 fw-bold">
+        <label for="InputTextArea">Write your query below</label>
+        <textarea class="form-control" id="InputTextArea" rows="8" placeholder="Enter your query here"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary my-4">Submit</button>
+</form>

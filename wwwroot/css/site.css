@@ -43,7 +43,11 @@ body {
     border-radius: 16px;
 }
 
-..semi-bold {
-    font-weight: 700;
-    font-size: 34px;
+.semi-bold {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 16px;
 }

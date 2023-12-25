@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HsPtjuY3cabP6cPKZISBzYxvoIx69bHf/fPwU3X7oqo=",
+  "Hash": "CqOMrESaRSo60suNdy4cJAJ7ahwx6EYZ36eSExDL+uE=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -663,12 +663,12 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.svg"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\social media.svg",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\social_media.svg",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/social media.svg",
+      "RelativePath": "images/social_media.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -679,7 +679,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\social media.svg"
+      "OriginalItemSpec": "wwwroot\\images\\social_media.svg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\js\\site.js",

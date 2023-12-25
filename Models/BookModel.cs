@@ -12,9 +12,10 @@ namespace RazorPagesLibrary.Models
         public string? Genre { get; set; }
         public string? ISBN { get; set; }
 
-        [DataType(DataType.DateTime)]
+        [Display(Name = "Publication Date"), DataType(DataType.Date)]
         public DateTime PublicationDate { get; set; }
         public int Pages { get; set; }
+        [Display(Name = "")]
         public string CoverImagePath { get; set; }
     }
 }
