@@ -15,5 +15,6 @@ namespace RazorPagesLibrary.Data
         }
 
         public DbSet<RazorPagesLibrary.Models.BookModel> Book { get; set; } = default!;
+        public DbSet<RazorPagesLibrary.Models.ContactUsModel> ContactUsModel { get; set; } = default!;
     }
 }

@@ -18,7 +18,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 .homepage-img {
@@ -27,6 +30,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
+    max-width: 1800px;
     width: 100%;
     height: 100vh;
     margin: 0;
@@ -37,7 +41,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 .bd-placeholder-img {
     border-radius: 16px;
@@ -50,4 +53,26 @@ body {
 
 .card {
     border-radius: 16px;
+    background-color: #444;
+}
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    background-color: #444; 
+    color: #fff; 
+    border: 1px solid #888; 
+}
+
+button {
+    background-color: #007bff; 
+    color: #fff; 
 }
