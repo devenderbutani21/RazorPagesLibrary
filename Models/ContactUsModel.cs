@@ -12,8 +12,10 @@ namespace RazorPagesLibrary.Models
         [StringLength(60), Display(Name = "Last Name")]
         public string lastName { get; set; }
         [Required]
+        [Display(Name = "Email")]
         public string email { get; set; }
         [Required]
+        [Display(Name = "Write your query here")]
         public string message { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QKKJWe3JO0lhs1ZkNI71xXdoMkatmWn3RgDW1ZGgdV4=",
+  "Hash": "+W966yfjathIwHMv0rS6RsnOypnZ+2F7586QGJ/uX6M=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\about_us.jpg",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\about-us.jpg",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/about_us.jpg",
+      "RelativePath": "images/about-us.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\about_us.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\about-us.jpg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\b1.jpg",

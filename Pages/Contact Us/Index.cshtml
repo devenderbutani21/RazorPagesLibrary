@@ -1,24 +1,41 @@
 ﻿@page
-@model RazorPagesLibrary.Pages.Contact_Us.IndexModel
-@{
-}
+@model RazorPagesLibrary.Pages.Contact_Us.CreateModel
 
-<form>
-    <div class="form-group my-4 fw-bold">
-        <label for="firstName">First name:</label><br>
-        <input type="text" class="form-control" id="firstName" placeholder="First Name">
+@{
+    ViewData["Title"] = "Create";
+}
+<h2>Contact Us</h2>
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ContactUsModel.firstName" class="control-label"></label>
+                <input asp-for="ContactUsModel.firstName" class="form-control" />
+                <span asp-validation-for="ContactUsModel.firstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUsModel.lastName" class="control-label"></label>
+                <input asp-for="ContactUsModel.lastName" class="form-control" />
+                <span asp-validation-for="ContactUsModel.lastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUsModel.email" class="control-label"></label>
+                <input asp-for="ContactUsModel.email" class="form-control" />
+                <span asp-validation-for="ContactUsModel.email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactUsModel.message" class="control-label"></label>
+                <textarea asp-for="ContactUsModel.message" class="form-control" rows="10"></textarea>
+                <span asp-validation-for="ContactUsModel.message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary btn-prop" />
+            </div>
+        </form>
     </div>
-    <div class="form-group my-4 fw-bold">
-        <label for="lastName">Last name:</label><br>
-        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-    </div>
-    <div class="form-group my-4 fw-bold">
-        <label for="InputEmail1">Email address</label>
-        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    </div>
-    <div class="form-group my-4 fw-bold">
-        <label for="InputTextArea">Write your query below</label>
-        <textarea class="form-control" id="InputTextArea" rows="8" placeholder="Enter your query here"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary my-4 btn-prop">Submit</button>
-</form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

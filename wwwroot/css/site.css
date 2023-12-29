@@ -30,8 +30,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 16px;
-    max-width: 1800px;
-    width: 100%;
+    width: 200vh;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -86,4 +85,15 @@ button {
 
 .t-size {
     font-size: 18px;
+}
+
+.vertical-center {
+    vertical-align: middle;
+}
+
+.card-img-wrapper {
+    border-radius: 16px;
+    background-color: white;
+    padding: 10px; 
+    text-align: center;
 }
