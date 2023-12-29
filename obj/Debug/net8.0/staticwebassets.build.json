@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CqOMrESaRSo60suNdy4cJAJ7ahwx6EYZ36eSExDL+uE=",
+  "Hash": "QKKJWe3JO0lhs1ZkNI71xXdoMkatmWn3RgDW1ZGgdV4=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -549,12 +549,12 @@
       "OriginalItemSpec": "wwwroot\\images\\blogs_3.jpg"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_1.png",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book1.png",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/book_1.png",
+      "RelativePath": "images/book1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -565,15 +565,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\book_1.png"
+      "OriginalItemSpec": "wwwroot\\images\\book1.png"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_2.png",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book2.png",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/book_2.png",
+      "RelativePath": "images/book2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -584,15 +584,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\book_2.png"
+      "OriginalItemSpec": "wwwroot\\images\\book2.png"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_3.png",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book3.png",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/book_3.png",
+      "RelativePath": "images/book3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,15 +603,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\book_3.png"
+      "OriginalItemSpec": "wwwroot\\images\\book3.png"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book_4.png",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\book4.png",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/book_4.png",
+      "RelativePath": "images/book4.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -622,15 +622,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\book_4.png"
+      "OriginalItemSpec": "wwwroot\\images\\book4.png"
     },
     {
-      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\homepage-img.jpg",
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\homepage_img.jpg",
       "SourceId": "RazorPagesLibrary",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
       "BasePath": "_content/RazorPagesLibrary",
-      "RelativePath": "images/homepage-img.jpg",
+      "RelativePath": "images/homepage_img.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,7 +641,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\homepage-img.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\homepage_img.jpg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\logo.svg",
