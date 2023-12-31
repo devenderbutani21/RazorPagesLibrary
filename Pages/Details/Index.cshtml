@@ -1,0 +1,21 @@
+﻿@page
+@model RazorPagesLibrary.Pages.Details.IndexModel
+@{
+    ViewData["Title"] = @Model.Book.Title;
+}
+
+<body>
+    <div class="row featurette">
+        <div class="col-md-3">
+            <div class="image-container" style="background-color: white; padding: 10px; display: flex; justify-content: center; align-items: center; border-radius: 16px;">
+                <img src="@Model.Book.CoverImagePath" class="card-img-top" alt="Cover Image" style="height: 300px; width: auto; max-width: 100%; border-radius: 8px;">
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h2 class="fw-bold">@Model.Book.Title</h2>
+            <p class="lead">Author: @Model.Book.Author</p>
+            <p class="lead">Genre: @Model.Book.Genre</p>
+            <p class="lead">Pages: @Model.Book.Pages</p>
+        </div>
+    </div>
+</body>
