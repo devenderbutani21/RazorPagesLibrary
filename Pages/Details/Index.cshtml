@@ -13,9 +13,34 @@
         </div>
         <div class="col-md-9">
             <h2 class="fw-bold">@Model.Book.Title</h2>
-            <p class="lead">Author: @Model.Book.Author</p>
-            <p class="lead">Genre: @Model.Book.Genre</p>
-            <p class="lead">Pages: @Model.Book.Pages</p>
+            <p class="lead semi-bold">by: @Model.Book.Author (Author) | Genre: @Model.Book.Genre | Pages: @Model.Book.Pages</p>
+            <div id="description">
+                <p class="lead description-short">@Model.Book.Description.Substring(0, Math.Min(250, Model.Book.Description.Length)))</p>
+                <p class="lead description-full" style="display: none;">@Model.Book.Description</p>
+                @if (Model.Book.Description.Length > 400)
+                {
+                    <a href="#" class="read-more" onclick="toggleDescription()">Read More</a>
+                }
+            </div>
+            <p class="lead">Number of Copies: @Model.Book.NumberOfCopies</p>
         </div>
     </div>
+
+    <script>
+        function toggleDescription() {
+            var shortDescription = document.querySelector('.description-short');
+            var fullDescription = document.querySelector('.description-full');
+            var readMoreLink = document.querySelector('.read-more');
+
+            if (shortDescription.style.display === 'none') {
+                shortDescription.style.display = 'block';
+                fullDescription.style.display = 'none';
+                readMoreLink.innerText = 'Read More';
+            } else {
+                shortDescription.style.display = 'none';
+                fullDescription.style.display = 'block';
+                readMoreLink.innerText = 'Show Less';
+            }
+        }
+    </script>
 </body>

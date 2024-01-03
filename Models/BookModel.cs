@@ -17,5 +17,9 @@ namespace RazorPagesLibrary.Models
         public int Pages { get; set; }
         [Display(Name = "")]
         public string CoverImagePath { get; set; }
+        [Required]
+        public int NumberOfCopies { get; set; } = 0;
+        [Required]
+        public string Description { get; set; } = string.Empty;
     }
 }

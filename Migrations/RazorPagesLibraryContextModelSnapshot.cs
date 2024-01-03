@@ -37,11 +37,18 @@ namespace RazorPagesLibrary.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Genre")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumberOfCopies")
+                        .HasColumnType("int");
 
                     b.Property<int>("Pages")
                         .HasColumnType("int");

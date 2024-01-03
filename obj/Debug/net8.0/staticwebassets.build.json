@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+W966yfjathIwHMv0rS6RsnOypnZ+2F7586QGJ/uX6M=",
+  "Hash": "V6Nh9noqEto7Lw1vgqDNGbqTzCiBJh3yJKF2DJU/QAs=",
   "Source": "RazorPagesLibrary",
   "BasePath": "_content/RazorPagesLibrary",
   "Mode": "Default",
@@ -357,6 +357,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b20.jpg"
+    },
+    {
+      "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\b21.jpg",
+      "SourceId": "RazorPagesLibrary",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\",
+      "BasePath": "_content/RazorPagesLibrary",
+      "RelativePath": "images/b21.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b21.jpg"
     },
     {
       "Identity": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\b3.jpg",
