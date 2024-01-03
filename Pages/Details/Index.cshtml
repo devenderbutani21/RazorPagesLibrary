@@ -17,9 +17,9 @@
             <div id="description">
                 <p class="lead description-short">@Model.Book.Description.Substring(0, Math.Min(250, Model.Book.Description.Length)))</p>
                 <p class="lead description-full" style="display: none;">@Model.Book.Description</p>
-                @if (Model.Book.Description.Length > 400)
+                @if (Model.Book.Description.Split(' ').Length > 100)
                 {
-                    <a href="#" class="read-more" onclick="toggleDescription()">Read More</a>
+                    <span class="read-more" onclick="toggleDescription()">Read More</span>
                 }
             </div>
             <p class="lead">Number of Copies: @Model.Book.NumberOfCopies</p>
