@@ -34,5 +34,6 @@ namespace RazorPagesLibrary.Pages.Details
 
             return Page();
         }
+
     }
 }

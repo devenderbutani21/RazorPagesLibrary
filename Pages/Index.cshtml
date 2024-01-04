@@ -11,12 +11,12 @@
                 <h1 class="fw-light fw-bold py-2">Welcome to Our Library</h1>
                 <h3 class="lead text-body-secondary py-2 fw-bold">Embark on a literary adventure! Dive into the site to uncover a treasure trove of resources waiting for your exploration.</h3>
                 <p>
-                    <a href="#" class="btn btn-light py-2 my-2 fw-bold">Get Started</a>
+                    <button class="btn btn-light py-2 my-2 fw-bold" onclick="scrollToCategory()">Get Started</button>
                 </p>
             </div>
         </div>
     </section>
-    <section>
+    <section id="category-section">
     <div class="text-center mb-5 my-4">
         <h2 class="mb-3">Category</h2>
         <h5>Discover literary gems, news, and captivating posts—a world of books awaits!</h5>
@@ -62,7 +62,7 @@
             <h2 class="mb-3">News & Blogs</h2>
             <h5>Discover literary gems, news, and captivating posts—a world of books awaits!</h5>
         </div>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-12 justify-content-center">
             <div class="col">
                 <div class="card shadow-sm">
                     <img src="/images/blogs_1.jpg" class="bd-placeholder-img card-img-top" width="384" height="256" alt="Blog 1">
@@ -98,4 +98,22 @@
             </div>
         </div>
     </section>
+
+    <script>
+        let hasButtonBeenClicked = false;
+
+        function scrollToCategory() {
+            if (!hasButtonBeenClicked) {
+                const categorySection = document.getElementById('category-section');
+                const offset = categorySection.offsetTop;
+
+                window.scrollTo({
+                    top: offset,
+                    behavior: 'smooth'
+                });
+
+                hasButtonBeenClicked = true;
+            }
+        }
+    </script>
 </body>
