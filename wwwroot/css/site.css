@@ -99,3 +99,9 @@ button {
     padding: 10px; 
     text-align: center;
 }
+
+.dark-dropdown {
+    background-color: #333; 
+    color: #fff;
+}
+

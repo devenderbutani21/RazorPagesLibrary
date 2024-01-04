@@ -133,6 +133,10 @@
       "PackagePath": "staticwebassets\\images\\homepage_img.jpg"
     },
     {
+      "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\login.png",
+      "PackagePath": "staticwebassets\\images\\login.png"
+    },
+    {
       "Id": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
