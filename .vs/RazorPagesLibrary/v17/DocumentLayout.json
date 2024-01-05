@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Code\\C#Net\\RazorPagesLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\pages\\contact us\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:pages\\contact us\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|solutionrelative:pages\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E387BA28-3EE3-4DFC-A990-E87F9E4F04B3}|RazorPagesLibrary.csproj|d:\\code\\c#net\\razorpageslibrary\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-05T16:33:55.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Contact Us\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Contact Us\\Index.cshtml",
               "ToolTip": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Contact Us\\Index.cshtml",
               "RelativeToolTip": "Pages\\Contact Us\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-01-05T03:09:39.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Login\\Index.cshtml",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -68,12 +85,11 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAEAAAAAAAAAAAAAAAE0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-01-03T18:55:56.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-03T18:55:56.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Code\\C#Net\\RazorPagesLibrary\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -81,8 +97,7 @@
               "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-01-03T18:47:50.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-03T18:47:50.497Z"
             }
           ]
         }
