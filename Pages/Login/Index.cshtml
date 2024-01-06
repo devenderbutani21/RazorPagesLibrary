@@ -1,39 +1,48 @@
 ﻿@page
 @model RazorPagesLibrary.Pages.Login.IndexModel
+
 @{
+    ViewData["Title"] = "Index";
 }
 
-<body>
-    <section class="vh-100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 text-white">
-                    <div class="d-flex align-items-center h-custom-2 px-4 ms-xl-4 mt-4 pt-4 pt-xl-0 mt-xl-n5">
-                        <form style="width: 23rem;">
-                            <h3 class="mb-3 pb-3 fw-bold" style="letter-spacing: 1px; font-size: 32px;">Log in</h3>
+<h1>Index</h1>
 
-                            <div class="form-outline mb-4">
-                                <label class="form-label semi-bold" for="form2Example18">Library Card No.</label>
-                                <input type="text" autocomplete="username" id="form2Example18" class="form-control form-control-lg" />
-                            </div>
-
-                            <div class="form-outline mb-4">
-                                <label class="form-label semi-bold" for="form2Example28">Password</label>
-                                <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                            </div>
-
-                            <div class="form-group">
-                                <input type="submit" value="Login" class="btn btn-primary btn-prop semi-bold" />
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-                <div class="col-sm-6 px-0 d-none d-sm-block">
-                    <img src="/images/about-us.jpg"
-                         alt="Login image" class=" bd-placeholder-img w-100 vh-100" style="object-fit: cover; object-position: left;">
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserModel[0].LibCardNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserModel[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserModel[0].PhoneNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.UserModel) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LibCardNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
