@@ -21,6 +21,13 @@ using (var scope = app.Services.CreateScope())
     SeedData.Initialize(services);
 }
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedAccountData.Initialize(services);
+}
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

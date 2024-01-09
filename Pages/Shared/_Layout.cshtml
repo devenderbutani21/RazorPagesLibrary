@@ -10,17 +10,17 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-2">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
             <div class="container">
-                <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon" style="filter: invert(100%);"></span>
                 </button>
-                <a class="navbar-brand text-light order-2" asp-area="" asp-page="/Index">
+                <a class="navbar-brand text-light order-1" asp-area="" asp-page="/Index">
                     <img src="~/images/logo.svg" width="41.25" height="45.75" alt="Library Logo" class="img-fluid" />
                 </a>
-                <div class="navbar-collapse collapse order-last">
-                    <ul class="navbar-nav ms-auto">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end order-3">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link text-light fw-bold t-size" asp-area="" asp-page="/Index">Home</a>
                         </li>
@@ -38,7 +38,7 @@
                                 <img src="~/images/login.png" width="25" height="25" alt="Login Logo" class="img-fluid" />
                             </a>
                             <ul class="dropdown-menu dark-dropdown" aria-labelledby="loginDropdown">
-                                <li><a class="dropdown-item text-light semi-bold" href="/Login/Index">Login</a></li>
+                                <li><a class="dropdown-item text-light semi-bold" href="/Account/Index">Login</a></li>
                             </ul>
                         </li>
                     </ul>
