@@ -1,16 +1,26 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesLibrary.Models;
-using System.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using RazorPagesLibrary.Data;
+using RazorPagesLibrary.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
 builder.Services.AddDbContext<RazorPagesLibraryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesLibraryContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesLibraryContext' not found.")));
+
+// Configure logging
+builder.Logging.ClearProviders(); // Clear the default providers
+
+builder.Logging.AddConsole(); // Add console logging
+
+// Add additional logging providers or configure options as needed
+// For example, you might add logging to a file or other external services.
 
 var app = builder.Build();
 

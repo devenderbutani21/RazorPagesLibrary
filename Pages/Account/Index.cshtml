@@ -11,28 +11,30 @@
             <div class="row">
                 <div class="col-sm-6 px-6 text-white">
                     <div class="d-flex align-items-center h-custom-2 px-4 ms-xl-4 mt-4 pt-4 pt-xl-0 mt-xl-n5">
-                        <form style="width: 23rem;">
+                        <form style="width: 23rem;" method="post" asp-page="./Index">
                             <h3 class="mb-3 pb-3 fw-bold" style="letter-spacing: 1px; font-size: 32px;">Log In</h3>
 
                             <div class="form-outline mb-4">
                                 <label class="form-label semi-bold" for="form2Example18">Library Card No.</label>
-                                <input type="text" autocomplete="username" id="form2Example18" class="form-control form-control-lg" />
+                                <input type="text" autocomplete="username" id="form2Example18" name="Account.LibCardNo" class="form-control form-control-lg" />
                             </div>
 
                             <div class="form-outline mb-4">
                                 <label class="form-label semi-bold" for="form2Example28">Password</label>
-                                <input type="password" id="form2Example28" class="form-control form-control-lg" />
+                                <input type="password" id="form2Example28" name="Account.Password" class="form-control form-control-lg" />
                             </div>
 
                             <div class="form-group">
                                 <input type="submit" value="Login" class="btn btn-primary btn-prop semi-bold" />
                             </div>
+
+                            <!-- Display error message -->
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         </form>
                     </div>
-
                 </div>
                 <div class="col-sm-6 py-4 d-none d-sm-block">
-                    <img src="/images/about-us.jpg" alt="Login image" class=" bd-placeholder-img w-100 vh-100" style="object-fit: contain; object-position: center;">
+                    <img src="/images/about-us.jpg" alt="Login image" class=" bd-placeholder-img w-100 vh-100" style="object-fit: contain; object-position: center; border-radius:18px;">
                 </div>
             </div>
         </div>
